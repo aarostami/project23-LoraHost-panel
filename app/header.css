@@ -14,7 +14,6 @@
 
 .Container {
 	background-image: url('images/hero-banner-bg.png');
-
 }
 
 header section {
@@ -48,7 +47,6 @@ section .centerList li:first-child a {
 
 section .centerList li a:hover {
 	border-top: 4px solid white;
-	
 }
 
 .main {
@@ -90,6 +88,5 @@ section .centerList li a:hover {
 		display: block;
 		width: 85% !important;
 		margin: auto auto !important;
-	}
-	
+	}	
 }

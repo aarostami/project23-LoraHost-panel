@@ -2,11 +2,9 @@
 import { Box, Container } from '@mui/system';
 import Grid from '@mui/material/Unstable_Grid2';
 import { Input, Button, FormGroup, List, ListItem, Stack, Typography } from '@mui/material'
-import Heading from '../../Components/Heading'
-import Services from '../../Components/MidCom/CommentsSlider';
-import CommentsSlider from '../../Components/MidCom/CommentsSlider';
-import Header from '../../Components/Header'
-import Footer from '../../Components/Footer'
+import Heading from '../../components/Heading'
+import Header from '../../components/Header'
+import Footer from '../../components/Footer'
 import Common from '../common';
 
 const contact = () => {
@@ -15,23 +13,23 @@ const contact = () => {
 		<Common />
 		{/* <Header /> */}
 		<Container>
-			<Box bgcolor={'#eee'} width={300} height={300} justifySelf={'center'} mx={'auto'} mb={10}>
+			<Box bgcolor={'#eee'} width={500} height={300} justifySelf={'center'} mx={'auto'} mb={10}>
 
 			</Box>
 			<Typography variant='h4'>با ما در ارتباط باشید</Typography>
 			<FormGroup sx={{ pt: '1rem', pb: '5rem' }}>
 				<Grid container>
 					<Grid xs={12} md={8} container flexDirection={'column'} rowGap={'1rem'}>
-						<textarea placeholder='پیام' rows={10}></textarea>
+						<textarea placeholder='پیام' rows={10} style={{ backgroundColor: 'transparent', paddingRight: '1rem', border: '1px solid #eee' }}></textarea>
 						<Grid container columnSpacing={3}>
 							<Grid md={6}>
-								<Input type='text' placeholder='نام شما' sx={{ width: '100%', ':before': { borderBottom: 'none' }, ':hover': { ':before': { borderBottom: 'none !important' } }, border: '1px solid black' }} />
+								<Input type='text' placeholder='نام شما' sx={{ width: '100%', ':before': { borderBottom: 'none' }, ':hover': { ':before': { borderBottom: 'none !important' } }, border: '1px solid #eee', paddingRight: '1rem' }} />
 							</Grid>
 							<Grid md={6}>
-								<Input type='text' placeholder='آدرس ایمیل' sx={{ width: '100%', ':before': { borderBottom: 'none' }, ':hover': { ':before': { borderBottom: 'none !important' } }, border: '1px solid black' }} />
+								<Input type='text' placeholder='آدرس ایمیل' sx={{ width: '100%', ':before': { borderBottom: 'none' }, ':hover': { ':before': { borderBottom: 'none !important' } }, border: '1px solid #eee', paddingRight: '1rem' }} />
 							</Grid>
 						</Grid>
-						<Input type='text' placeholder='موضوع' sx={{ ':before': { borderBottom: 'none' }, ':hover': { ':before': { borderBottom: 'none !important' } }, border: '1px solid black' }} />
+						<Input type='text' placeholder='موضوع' sx={{ ':before': { borderBottom: 'none' }, ':hover': { ':before': { borderBottom: 'none !important' } }, border: '1px solid #eee', paddingRight: '1rem' }} />
 						<Button variant='contained' color='inherit' className='button' sx={{ width: '20%', background: 'linear-gradient(to right, rgb(109 41 197 / 85%), rgb(54 13 209 / 85%))', color: 'white', fontSize: '1.1rem', boxShadow: '0px 0px 20px #aaa' }}>ارسال پیام</Button>
 					</Grid>
 					<Grid xs={12} md={4}>

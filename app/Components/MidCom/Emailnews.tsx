@@ -1,7 +1,6 @@
 import Grid from '@mui/material/Unstable_Grid2';
 import { Input, Button, Typography } from '@mui/material'
 import { Container } from '@mui/system'
-import Image from 'next/image';
 
 const Emailnews = () => {
 	return <section className='emailnews' style={{ padding: '5rem 0', backgroundColor: '#ddd' }}>

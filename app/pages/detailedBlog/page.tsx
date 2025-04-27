@@ -1,6 +1,4 @@
 'use client'
-import Header from '../../Components/Header'
-import Footer from '../../Components/Footer'
 import Common from '../common'
 import { Container } from '@mui/system'
 import Image from 'next/image'

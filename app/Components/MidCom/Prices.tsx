@@ -1,7 +1,6 @@
 import { Container, Box} from '@mui/system'
 import Grid from '@mui/material/Unstable_Grid2';
 import { Button, Typography } from '@mui/material';
-import Image from 'next/image';
 
 const Prices = () => {
 	return <section className='prices'>

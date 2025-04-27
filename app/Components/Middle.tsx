@@ -72,6 +72,6 @@ export default function Middle() {
 			<Textinfo />
 			<CommentsSlider />
 			{/* </Container> */}
-		</main >
+		</main>
 	</ThemeProvider>
 }

@@ -1,8 +1,8 @@
 'use client'
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import { Container, Stack } from "@mui/system";
 import Grid from '@mui/material/Unstable_Grid2'
-import { Box, LinearProgress,Input, CardContent, Card, Typography, Chip, InputAdornment, Badge, styled } from "@mui/material";
+import { Box, LinearProgress, Input, CardContent, Card, Typography, Chip, InputAdornment, Badge, styled } from "@mui/material";
 import { PieChart, Pie, Cell, ResponsiveContainer } from 'recharts'
 // import Chart from 'chart.js/auto'
 import CircularProgress from "@mui/material/CircularProgress";	//rahat taresh: https://mui.com/x/react-charts/pie-demo/
@@ -83,8 +83,7 @@ const FirstRowStatis = () => {
 							':before': { borderBottom: 'none !important' }
 						},
 						':after': { borderBottom: 'none' }, px: "10px"
-					}
-					} />
+					}} />
 			</div>
 		</Grid>
 	</Grid>

@@ -1,13 +1,9 @@
 'use client'
 import { Container } from '@mui/system';
-import Services from '../../Components/MidCom/CommentsSlider';
-import CommentsSlider from '../../Components/MidCom/CommentsSlider';
-import Header from '../../Components/Header'
-import Footer from '../../Components/Footer'
-import Heading from '../../Components/Heading'
+import Services from '../../components/MidCom/CommentsSlider';
+import CommentsSlider from '../../components/MidCom/CommentsSlider';
 
 const options = () => {
-
 	return (<header>
 		<section className='Container'>
 			<section>
@@ -17,8 +13,7 @@ const options = () => {
 				</Container>
 			</section>
 		</section>
-	</header>
-	)
+	</header>)
 }
 
 export default options

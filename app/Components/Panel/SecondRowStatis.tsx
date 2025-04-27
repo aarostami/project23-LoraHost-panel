@@ -10,7 +10,6 @@ const SecondRowStatis = () => {
 	Chart.register(ArcElement, CategoryScale, LinearScale, BarElement, Title, Tooltip, PointElement, LineElement)
 	// Chart.register(CategoryScale, LinearScale, BarElement, Title, Tooltip, Legend)
 	// console.log(Chart.getChart('doughnut'))
-	// console.log(toString())
 	// setEl()
 
 	return <Grid container columnGap={2} flexWrap={"nowrap"} mt={3}>

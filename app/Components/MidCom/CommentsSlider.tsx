@@ -1,6 +1,6 @@
-import Grid from '@mui/material/Unstable_Grid2';
 import Heading from '../Heading'
 import { Container, Box } from '@mui/system'
+import Grid from '@mui/material/Unstable_Grid2';
 import Typography from '@mui/material/Typography';
 import Image from 'next/image';
 import { Swiper, SwiperSlide } from 'swiper/react'
@@ -18,7 +18,7 @@ const CommentsSlider = () => {
 		<Heading {...{ text: 'نظر مشتریان راضی ما' }} />
 		<Container>
 			<article>
-				<Swiper spaceBetween={15} slidesPerView={3} loop={true} navigation={true} enabled freeMode={true} initialSlide={1} pagination={{clickable: true}} modules={[Navigation, Pagination]}>
+				<Swiper spaceBetween={15} slidesPerView={3} loop={true} navigation={true} enabled freeMode={true} initialSlide={1} pagination={{ clickable: true }} modules={[Navigation, Pagination]}>
 					<SwiperSlide>
 						<Box>
 							<Grid container>

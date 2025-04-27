@@ -1,31 +1,27 @@
 "use client"
 import { useState, useEffect, useContext, useRef, createContext, Suspense } from "react";
-import Header from "../Components/Header";
-import Footer from "../Components/Footer";
+import Header from "../components/Header";
+import Footer from "../components/Footer";
 import Grid from '@mui/material/Unstable_Grid2'
 import { Container } from "@mui/system";
-import { Divider, List, ListItem, ListItemButton, ListItemIcon, ListItemText, ListSubheader, Typography } from "@mui/material";
-import FirstRowStatis from "../Components/Panel/FirstRowStatis";
-import SecondRowStatis from "../Components/Panel/SecondRowStatis";
-import Empolyees from "../Components/Panel/Employees";
-import ReceiveMessage from "../Components/Panel/ReceiveMessage";
-import LastProjects from "../Components/Panel/LastProjects";
+import { createTheme, Drawer, Avatar, Box, Divider, List, ListItem, ListItemButton, ListItemIcon, ListItemText, ListSubheader, Typography } from "@mui/material";
+import FirstRowStatis from "../components/Panel/FirstRowStatis";
+import SecondRowStatis from "../components/Panel/SecondRowStatis";
+import Empolyees from "../components/Panel/Employees";
+import ReceiveMessage from "../components/Panel/ReceiveMessage";
+import LastProjects from "../components/Panel/LastProjects";
 // import dynamic from "next/dynamic";
-import Drawer from "@mui/material/Drawer";
 import IconButton from "@mui/material/IconButton";
 import ChevronLeft from '@mui/icons-material/ChevronLeft'
 import ChevronRight from '@mui/icons-material/ChevronRight'
 import DashboardIcon from '@mui/icons-material/Dashboard';
-import Avatar from "@mui/material/Avatar";
 import avatar from '../images/panel/avatar-1.jpg'
 import Image from "next/image";
 import MenuIcon from '@mui/icons-material/Menu'
-import Box from '@mui/material/Box'
-import DrawerSide from '../Components/Panel/DrawerSide'
+import DrawerSide from '../components/Panel/DrawerSide'
 import Byekan from './fonts/Yekan.ttf'
 import Mj_Anoosh from './fonts/Mj_Anoosh.ttf'
 import ThemeProvider from "@mui/system/ThemeProvider";
-import { createTheme } from "@mui/material/styles";
 import Main from './main/page'
 import Buttons from "./buttons/page";
 import { usePathname, useSearchParams } from "next/navigation"
@@ -106,7 +102,7 @@ const Panel = (props: any, req: any) => {
 					{/* {(props.searchParams.buttons == 'true') ? <Buttons /> : <Main />} */}
 					{/* bejoz in ravesh run dar local ok hast ama dar github actions workflow error mide */}
 					<Suspense fallback={<h2>load</h2>}>
-					{/* chon const searchParams = useSearchParams() bayad dar Suspense taarif bashe pas nemishe dar Panel taarif beshe va az function component balla estefade kardim */}
+						{/* chon const searchParams = useSearchParams() bayad dar Suspense taarif bashe pas nemishe dar Panel taarif beshe va az function component balla estefade kardim */}
 						{/* {(searchParams.size == 1) ? <Buttons /> : <Main />} */}
 						<Paramcomponent />
 					</Suspense>

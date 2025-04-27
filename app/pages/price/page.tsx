@@ -1,10 +1,8 @@
 'use client'
 import { Container } from '@mui/system';
-import Prices from '../../Components/MidCom/Prices';
-import Emailnews from '../../Components/MidCom/Emailnews';
-import Textinfo from '../../Components/MidCom/Textinfo';
-import Header from '../../Components/Header'
-import Footer from '../../Components/Footer'
+import Prices from '../../components/MidCom/Prices';
+import Emailnews from '../../components/MidCom/Emailnews';
+import Textinfo from '../../components/MidCom/Textinfo';
 
 const price = () => {
 

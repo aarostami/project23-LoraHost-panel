@@ -1,6 +1,6 @@
 'use client'
-import { Container } from "@mui/system"
 import './style.css'
+import { Container } from "@mui/system"
 import { Box, Typography } from '@mui/material'
 
 const common = () => {

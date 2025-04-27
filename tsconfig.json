@@ -37,7 +37,7 @@
     "**/*.tsx",
     ".next/types/**/*.ts",
     "app/react-app-env.d.ts",
-    "server.js"
+    "app/server.js"
   ],
   "exclude": [
     "node_modules"
