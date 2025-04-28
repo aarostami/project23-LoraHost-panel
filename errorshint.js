@@ -1,4 +1,4 @@
-Error:
+/* Error:
   x Expression expected
     ,-[E:\React\project22-nextjs-theme3\app\Components\Header.tsx:9:1]
   9 |
@@ -31,3 +31,33 @@ in ba update kardane nodejs, npm, nextjs dorost mishe.
 -----------------------------------------------------------
 vaghti yek component tsx jadid misazim, agar console.log begirim chizi neshoon nemide, bayad yek bar npm ro stop va start konim
 ta dorost beshe.
+-----------------------------------------------------------
+Failed to compile.
+
+./app/page.tsx
+Module not found: Can't resolve './components/Header'
+
+https://nextjs.org/docs/messages/module-not-found
+
+./app/page.tsx
+Module not found: Can't resolve './components/Middle'
+
+https://nextjs.org/docs/messages/module-not-found
+
+./app/page.tsx
+Module not found: Can't resolve './components/Footer'
+
+https://nextjs.org/docs/messages/module-not-found
+
+./app/pages/options/page.tsx
+Module not found: Can't resolve '../../components/MidCom/Services.jsx'
+
+https://nextjs.org/docs/messages/module-not-found
+
+./app/pages/options/page.tsx
+Module not found: Can't resolve '../../components/MidCom/CommentsSlider.jsx'
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+Build failed because of webpack errors */

@@ -1,7 +1,7 @@
 'use client'
 import { Container } from '@mui/system';
-import Services from '../../components/MidCom/Services.jsx';
-import CommentsSlider from '../../components/MidCom/CommentsSlider.jsx';
+import Services from '../../components/MidCom/Services.js';
+import CommentsSlider from '../../components/MidCom/CommentsSlider.js';
 
 const options = () => {
 	return (<header>

@@ -3,7 +3,7 @@ import { Box, Container } from '@mui/system';
 import Grid from '@mui/material/Unstable_Grid2';
 import { Input, Button, FormGroup, List, ListItem, Stack, Typography } from '@mui/material'
 import Heading from '../../components/Heading'
-import Header from '../../components/Header'
+import Header from '../../components/header'
 import Footer from '../../components/Footer'
 import Common from '../common';
 
