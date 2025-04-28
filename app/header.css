@@ -2,10 +2,10 @@
 	box-sizing: border-box;
 }
 
-@font-face {
+/* @font-face {
 	font-family: Mj_Anoosh;
 	src: url('fonts/Mj_Anoosh.ttf') format('truetype');
-}
+} */
 
 .button:hover {
 	background-color: #1b095a;

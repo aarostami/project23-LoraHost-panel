@@ -15,14 +15,14 @@ import Customers from './MidCom/Customers'
 import CssBaseline from '@mui/material/CssBaseline'
 // import createTheme from '@mui/system/createTheme'
 // import { StyleFunction, ThemeProvider } from 'styled-components'
-import Byekan from './fonts/Yekan.ttf'
-import Mj_Anoosh from './fonts/Mj_Anoosh.ttf'
+/* import Byekan from '../fonts/Yekan.ttf'
+import Mj_Anoosh from '../fonts/Mj_Anoosh.ttf' */
 
 export default function Middle() {
 
-	interface ArticleProps {
+	/* interface ArticleProps {
 		sx?: SxProps
-	}
+	} */
 
 	// const theme = createTheme();
 

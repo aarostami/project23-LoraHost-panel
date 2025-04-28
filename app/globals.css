@@ -73,14 +73,14 @@
   }
 }
 
-@font-face {
+/* @font-face {
 	font-family: Mj_Anoosh;
 	src: url('fonts/Mj_Anoosh.ttf') format('truetype');
 }
 @font-face {
 	font-family: Byekan;
 	src: url('fonts/Yekan.ttf') format('truetype');
-}
+} */
 
 * {
   box-sizing: border-box;

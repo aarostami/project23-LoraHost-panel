@@ -4,8 +4,8 @@ import Middle from './components/Middle'
 import Footer from './components/Footer'
 import styles from './page.module.css'
 import { createTheme, ThemeProvider } from '@mui/system'
-import Byekan from './fonts/Yekan.ttf'
-import Mj_Anoosh from './fonts/Mj_Anoosh.ttf'
+/* import Byekan from './fonts/Yekan.ttf'
+import Mj_Anoosh from './fonts/Mj_Anoosh.ttf' */
 // import CssBaseline from '@mui/material/CssBaseline'
 // import Byekan from './fonts/Yekan.ttf'
 //"scripts": {

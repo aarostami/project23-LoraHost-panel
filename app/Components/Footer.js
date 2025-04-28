@@ -4,8 +4,8 @@ import { Button, Typography, Input, List, ListItem } from "@mui/material";
 import Grid from "@mui/system/Unstable_Grid";
 import Image from "next/image";
 import Logo from '../images/logo.png'
-import style from './middle.module.css'
-import footlogo from './images/logo.PNG'
+import style from '../middle.module.css'
+import footlogo from '../images/logo.PNG'
 import Link from 'next/link'
 
 export default function Footer() {
