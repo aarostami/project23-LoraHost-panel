@@ -8,7 +8,7 @@ import style from './middle.module.css'
 import footlogo from './images/logo.PNG'
 import Link from 'next/link'
 
-export function Footer() {
+export default function Footer() {
 
 	return (
 		<footer style={{ borderTop: '1px solid #999', paddingBottom: '1rem', backgroundColor: '#160d49' }}>

@@ -38,7 +38,7 @@
     ".next/types/**/*.ts",
     "app/react-app-env.d.ts",
     "app/server.js"
-  ],
+, "app/components/Footer.js", "app/components/Header.js", "app/components/Middle.js"  ],
   "exclude": [
     "node_modules"
   ]
