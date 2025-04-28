@@ -4,7 +4,7 @@ import Grid from '@mui/material/Unstable_Grid2';
 import { Input, Button, FormGroup, List, ListItem, Stack, Typography } from '@mui/material'
 import Heading from '../../components/Heading'
 // import Header from '../../components/Header'
-import Footer from '../../components/Footer'
+import Footer from '../../components/common/Footer'
 import Common from '../common';
 
 const contact = () => {

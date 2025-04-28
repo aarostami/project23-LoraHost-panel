@@ -1,7 +1,7 @@
 "use client"
 import { useState, useEffect, useContext, useRef, createContext, Suspense } from "react";
-import Header from "../components/header";
-import Footer from "../components/Footer";
+import Header from "../components/common/header";
+import Footer from "../components/common/Footer";
 import Grid from '@mui/material/Unstable_Grid2'
 import { Container } from "@mui/system";
 import { createTheme, Drawer, Avatar, Box, Divider, List, ListItem, ListItemButton, ListItemIcon, ListItemText, ListSubheader, Typography } from "@mui/material";

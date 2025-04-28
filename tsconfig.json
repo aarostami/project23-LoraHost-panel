@@ -48,7 +48,7 @@
     ".next/types/**/*.ts",
     "app/react-app-env.d.ts",
     "app/server.js"
-, "app/components/Footer.js", "app/components/header.js", "app/components/Middle.js", "app/components/MidCom/CommentsSlider.js", "app/components/MidCom/ServicesMe.js"  ],
+, "app/components/common/Footer.js", "app/components/common/header.js", "app/components/common/Middle.js", "app/components/MidCom/CommentsSlider.js", "app/components/MidCom/ServicesMe.js"  ],
   "exclude": [
     "node_modules"
   ]

@@ -19,6 +19,6 @@ const nextConfig = {
 		
 		return config
 	}, */
-	webpack: false
+	// webpack: false
 }
 module.exports = nextConfig
