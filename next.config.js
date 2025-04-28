@@ -14,6 +14,11 @@ const nextConfig = {
 		// your project has type errors.
 		// !! WARN !!
 		// ignoreBuildErrors: true
-	}
+	},
+	/* webpack: (config, options) => {
+		
+		return config
+	}, */
+	webpack: false
 }
 module.exports = nextConfig
