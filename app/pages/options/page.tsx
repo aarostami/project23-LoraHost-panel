@@ -1,6 +1,6 @@
 'use client'
 import { Container } from '@mui/system';
-import Services from '../../components/MidCom/CommentsSlider';
+import Services from '../../components/MidCom/Services';
 import CommentsSlider from '../../components/MidCom/CommentsSlider';
 
 const options = () => {
