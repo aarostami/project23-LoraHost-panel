@@ -5,7 +5,7 @@ import '../header.css'
 import { createTheme } from '@mui/material';
 import Heading from './Heading'
 import Search from './MidCom/Search'
-import Services from './MidCom/Services'
+import Services from './MidCom/ServicesMe'
 import Prices from './MidCom/Prices'
 import SecondPrices from './MidCom/SecondPrices'
 import Emailnews from './MidCom/Emailnews'
