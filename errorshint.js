@@ -32,6 +32,7 @@ in ba update kardane nodejs, npm, nextjs dorost mishe.
 vaghti yek component tsx jadid misazim, agar console.log begirim chizi neshoon nemide, bayad yek bar npm ro stop va start konim
 ta dorost beshe.
 -----------------------------------------------------------
+error dar github actions mide na local:
 Failed to compile.
 
 ./app/page.tsx
