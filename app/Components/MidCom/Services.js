@@ -9,7 +9,7 @@ import home_page from '../../images/004-home-page.png'
 import headset from '../../images/005-headset.png'
 import ServiceBoxCom from '../ServiceBoxCom';
 
-const Services = () => {
+const ServicesMe = () => {
 	const ServiceBox = styled('article')({
 		backgroundColor: '#eee',
 		padding: '2.5rem',
@@ -73,4 +73,4 @@ const Services = () => {
 	</section>
 }
 
-export default Services
+export default ServicesMe

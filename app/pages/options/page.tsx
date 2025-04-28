@@ -1,6 +1,6 @@
 'use client'
 import { Container } from '@mui/system';
-import Services from '../../components/MidCom/Services.js';
+import ServicesMe from '../../components/MidCom/Services.js';
 import CommentsSlider from '../../components/MidCom/CommentsSlider.js';
 
 const options = () => {
@@ -8,7 +8,7 @@ const options = () => {
 		<section className='Container'>
 			<section>
 				<Container>
-					<Services />
+					<ServicesMe />
 					<CommentsSlider />
 				</Container>
 			</section>
