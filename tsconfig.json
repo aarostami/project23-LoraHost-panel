@@ -29,9 +29,14 @@
       "@/*": [
         "./*"
       ],
-	  "@/components/*": ["components/*"]
+	  "@/components/*": ["components/*"],
+	  "@app/*": ["./app/*"],
+      "@assets/*": ["./assets/*"],
+      "@components/*": ["./components/*"],
+      "@styles/*": ["./styles/*"],
+      "@utils/*": ["./utils/*"]
     },
-    // "forceConsistentCasingInFileNames": true
+    "forceConsistentCasingInFileNames": true
   },
   "include": [
 	".",
