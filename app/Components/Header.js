@@ -11,7 +11,7 @@ import logo from '../images/logo.png'
 import hero from '../images/hero-banner-bg.png'
 import createTheme from '@mui/system/createTheme'
 
-export default function Header() {
+export default function Head() {
 	// const Button = createTheme()
 	/* const Root = styled('div')(({theme}) => ({
 		[theme.breakpoints.down('md')]: {
