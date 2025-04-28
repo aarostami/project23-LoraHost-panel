@@ -1,4 +1,5 @@
 'use client'
+import Middle from './components/common/Middle'
 /* import Header from './components/common/header'
 import Middle from './components/common/Middle'
 import Footer from './components/common/Footer' */
@@ -52,5 +53,6 @@ export default function Home() {
 		{/* <Header />
 		<Middle />
 		<Footer /> */}
+		<Middle />
 	</>)
 }
