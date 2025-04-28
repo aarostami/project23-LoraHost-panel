@@ -1,7 +1,7 @@
 'use client'
-import Header from './components/common/header'
+/* import Header from './components/common/header'
 import Middle from './components/common/Middle'
-import Footer from './components/common/Footer'
+import Footer from './components/common/Footer' */
 import styles from './page.module.css'
 import { createTheme, ThemeProvider } from '@mui/system'
 /* import Byekan from './fonts/Yekan.ttf'
@@ -49,8 +49,8 @@ export default function Home() {
 	return (<>
 		{/* <CssBaseline /> */}
 		{/* <button style={{zIndex: '20', background: 'red', padding: '20px 20px', width: '200px', height: '200px', marginTop: '10px'}}>aaaaa</button> */}
-		<Header />
+		{/* <Header />
 		<Middle />
-		<Footer />
+		<Footer /> */}
 	</>)
 }
