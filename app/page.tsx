@@ -1,5 +1,5 @@
 'use client'
-import Header from '../app/components/header'
+import Header from './components/header'
 import Middle from './components/Middle'
 import Footer from './components/Footer'
 import styles from './page.module.css'
