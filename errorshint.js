@@ -79,3 +79,34 @@ shayad bekhatere version nodejs va nextjs hast.
  ⚠ Mismatching @next/swc version, detected: 14.2.6 while Next.js is on 15.0.1. Please ensure these match
 // ba taghire version next ya nodejs ok mishe.
 */
+
+// my note in compilerOption in tsconfig.json:
+// "baseUrl": ".",
+// "moduleResolution": "bundler",		//in baese error ya warning baraye import az node_module mishe
+// "paths": {
+// 			"@/*": [
+// 				"./*"
+// 			],
+			//   "@components/*": ["./components/*"],
+			//   "@/components/*": ["components/*"],
+			//   "@app/*": ["./app/*"],
+			//   "@assets/*": ["./assets/*"],
+			//   "@styles/*": ["./styles/*"],
+			//   "@utils/*": ["./utils/*"]
+		// },
+		// "forceConsistentCasingInFileNames": true
+		// "include": [
+		// ".",
+		// "next-env.d.ts",
+		// "**/*.ts",
+		// "**/*.tsx",
+		// "*.ts",
+		// "src",
+		// ".next/types/**/*.ts",
+		// "app/react-app-env.d.ts",
+		// "app/server.js",
+		// "app/components/common/Footer.js",
+		// "app/components/common/Header.js",
+		// "app/components/HomeMiddle.js",
+		// "app/components/MidCom/CommentsSlider.js",
+		// "app/components/MidCom/ServicesMe.js"

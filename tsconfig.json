@@ -1,6 +1,5 @@
 {
 	"compilerOptions": {
-		"baseUrl": ".",
 		"target": "es5",
 		"lib": [
 			"dom",
@@ -13,13 +12,11 @@
 		"noEmit": true,
 		"esModuleInterop": true,
 		"module": "esnext",
-		// "moduleResolution": "bundler",		//in baese error ya warning baraye import az node_module mishe
 		"moduleResolution": "node",
 		"resolveJsonModule": true,
 		"isolatedModules": true,
 		"jsx": "preserve",
 		"incremental": true,
-		"noUnusedLocals": false,
 		"plugins": [
 			{
 				"name": "next"
@@ -29,30 +26,14 @@
 			"@/*": [
 				"./*"
 			],
-			//   "@components/*": ["./components/*"],
-			//   "@/components/*": ["components/*"],
-			//   "@app/*": ["./app/*"],
-			//   "@assets/*": ["./assets/*"],
-			//   "@styles/*": ["./styles/*"],
-			//   "@utils/*": ["./utils/*"]
 		},
-		// "forceConsistentCasingInFileNames": true
+		"forceConsistentCasingInFileNames": true
 	},
 	"include": [
-		".",
 		"next-env.d.ts",
 		"**/*.ts",
 		"**/*.tsx",
-		"*.ts",
-		"src",
-		// ".next/types/**/*.ts",
-		// "app/react-app-env.d.ts",
-		// "app/server.js",
-		// "app/components/common/Footer.js",
-		// "app/components/common/Header.js",
-		// "app/components/HomeMiddle.js",
-		// "app/components/MidCom/CommentsSlider.js",
-		// "app/components/MidCom/ServicesMe.js"
+		".next/types/**/*.ts"
 	],
 	"exclude": [
 		"node_modules"
