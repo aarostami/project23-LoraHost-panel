@@ -1,5 +1,5 @@
 'use client'
-import HomeMiddle from './components/HomeMiddle'
+import HomeMiddle from './pages/HomeMiddle'
 // import styles from './page.module.css'
 import { createTheme, ThemeProvider } from '@mui/system'
 /* import Byekan from './fonts/Yekan.ttf'

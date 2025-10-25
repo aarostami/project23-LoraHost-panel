@@ -20,7 +20,7 @@
     "chart.js": "^4.4.9",
     "concurrently": "8.2.2",
     "cors": "2.8.5",
-    "cross-env": "7.0.3",
+    "cross-env": "^7.0.3",
     "css-loader": "^7.1.2",
     "express": "4.19.2",
     "file-loader": "^6.2.0",
