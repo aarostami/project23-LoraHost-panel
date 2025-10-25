@@ -1,6 +1,6 @@
 "use client"
 import { useState, useEffect, useContext, useRef, createContext, Suspense } from "react";
-import Header from "../components/common/header";
+import Header from "../components/common/Header";
 import Footer from "../components/common/Footer";
 import Grid from '@mui/material/Unstable_Grid2'
 import { Container } from "@mui/system";

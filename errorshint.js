@@ -61,4 +61,21 @@ Module not found: Can't resolve '../../components/MidCom/CommentsSlider.jsx'
 https://nextjs.org/docs/messages/module-not-found
 
 
-Build failed because of webpack errors */
+Build failed because of webpack errors 
+
+-------------------------------------------
+error:
+file:///C:/Users/Alireza/Documents/MEGAsync/Projects/front-end/4-Nextjs/archive/New%20folder/next.config.js:1
+import type { NextConfig } from "next";
+            ^
+
+SyntaxError: Unexpected token '{'
+
+shayad bekhatere version nodejs va nextjs hast.
+
+// ba taghire version next ya nodejs ok mishe.
+------------------------------------------------
+ the --inspect option was detected, the Next.js router server should be inspected at 9230.
+ ⚠ Mismatching @next/swc version, detected: 14.2.6 while Next.js is on 15.0.1. Please ensure these match
+// ba taghire version next ya nodejs ok mishe.
+*/

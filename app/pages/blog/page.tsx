@@ -1,5 +1,5 @@
 'use client'
-import Header from '../../components/common/header'
+import Header from '../../components/common/Header'
 import Footer from '../../components/common/Footer'
 import Common from '../common'
 import { Box, Container } from '@mui/system'

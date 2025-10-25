@@ -19,8 +19,6 @@ const ServiceBoxCom = () => {
 		<Typography variant='h6'>سرور امن</Typography>
 		<Typography>برای برپاسازی یک سایت، اول از همه نیاز به یک مکان روی اینترنت داریم که بتوانیم فایل‌های سایت را روی آن بریزیم</Typography>
 	</ServiceBox>
-
-
 }
 
 export default ServiceBoxCom

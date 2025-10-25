@@ -1,24 +1,24 @@
 'use client'
 import { Container, Box, unstable_styleFunctionSx, SxProps, bgcolor, styled, ThemeProvider, style, borderBottom } from '@mui/system'
 import Image from 'next/image';
-import '../header.css'
+import '../../header.css'
 import { createTheme } from '@mui/material';
-import Heading from '../Heading'
-import Search from '../MidCom/Search'
-import Services from '../MidCom/ServicesMe'
-import Prices from '../MidCom/Prices'
-import SecondPrices from '../MidCom/SecondPrices'
-import Emailnews from '../MidCom/Emailnews'
-import Textinfo from '../MidCom/Textinfo'
-import CommentsSlider from '../MidCom/CommentsSlider'
-import Customers from '../MidCom/Customers'
+import Heading from './Heading'
+import Search from './MidCom/Search'
+import Services from './MidCom/ServicesMe'
+import Prices from './MidCom/Prices'
+import SecondPrices from './MidCom/SecondPrices'
+import Emailnews from './MidCom/Emailnews'
+import Textinfo from './MidCom/Textinfo'
+import CommentsSlider from './MidCom/CommentsSlider'
+import Customers from './MidCom/Customers'
 import CssBaseline from '@mui/material/CssBaseline'
 // import createTheme from '@mui/system/createTheme'
 // import { StyleFunction, ThemeProvider } from 'styled-components'
 /* import Byekan from '../fonts/Yekan.ttf'
 import Mj_Anoosh from '../fonts/Mj_Anoosh.ttf' */
 
-export default function Middle() {
+export default function HomeMiddle() {
 
 	/* interface ArticleProps {
 		sx?: SxProps

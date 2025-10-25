@@ -51,7 +51,7 @@
     "url-loader": "^4.1.1",
     "web-vitals": "2.1.4"
   },
-  "homepage": "https://github.com/aarostami/project23-theme3",
+  "homepage": "https://github.com/aarostami/project23-LoraHost-panel",
   "private": true,
   "scripts": {
     "////dev": "cross-env NODE_OPTIONS='--inspect' NODE_NO_WARNINGS=1 next-remote-watch",

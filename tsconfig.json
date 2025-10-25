@@ -29,10 +29,10 @@
       "@/*": [
         "./*"
       ],
-	  "@/components/*": ["components/*"],
+      "@components/*": ["./components/*"],
+	//   "@/components/*": ["components/*"],
 	  "@app/*": ["./app/*"],
       "@assets/*": ["./assets/*"],
-      "@components/*": ["./components/*"],
       "@styles/*": ["./styles/*"],
       "@utils/*": ["./utils/*"]
     },
@@ -48,7 +48,7 @@
     ".next/types/**/*.ts",
     "app/react-app-env.d.ts",
     "app/server.js"
-, "app/components/common/Footer.js", "app/components/common/header.js", "app/components/common/Middle.js", "app/components/MidCom/CommentsSlider.js", "app/components/MidCom/ServicesMe.js"  ],
+, "app/components/common/Footer.js", "app/components/common/Header.js", "app/components/HomeMiddle.js", "app/components/MidCom/CommentsSlider.js", "app/components/MidCom/ServicesMe.js"  ],
   "exclude": [
     "node_modules"
   ]

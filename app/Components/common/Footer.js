@@ -3,9 +3,9 @@ import { Container } from "@mui/system";
 import { Button, Typography, Input, List, ListItem } from "@mui/material";
 import Grid from "@mui/system/Unstable_Grid";
 import Image from "next/image";
-import Logo from '../images/logo.png'
-import style from '../middle.module.css'
-import footlogo from '../images/logo.PNG'
+// import Logo from '../../images/logo.png'
+// import style from '../../middle.module.css'
+// import footlogo from '../../images/logo.PNG'
 import Link from 'next/link'
 
 export default function Footer() {
@@ -19,8 +19,8 @@ export default function Footer() {
 							<article style={{ display: 'flex', flexDirection: 'column', rowGap: '0.5rem' }}>
 								<Typography variant="h5" color={'white'} fontWeight={'bold'} mb={'1rem'}>درباره ما</Typography>
 								<Typography color='#999'>از فضای میزبانی با نام هاست هم نام برده می‌شود که در اصل اگر Host را به فارسی برگردانی کنیم، همان معنی و مفهوم فضای میزبانی را می‌دهد.</Typography>
-								<Image src={Logo}
-									alt="logo" style={{ display: 'block' }} />
+								{/* <Image src={Logo}
+									alt="logo" style={{ display: 'block' }} /> */}
 							</article>
 						</Grid>
 						<Grid sm={6} md={3}>
