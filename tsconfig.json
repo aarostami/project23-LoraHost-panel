@@ -36,7 +36,7 @@
 			//   "@styles/*": ["./styles/*"],
 			//   "@utils/*": ["./utils/*"]
 		},
-		"forceConsistentCasingInFileNames": true
+		// "forceConsistentCasingInFileNames": true
 	},
 	"include": [
 		".",
@@ -45,8 +45,8 @@
 		"**/*.tsx",
 		"*.ts",
 		"src",
-		".next/types/**/*.ts",
-		"app/react-app-env.d.ts",
+		// ".next/types/**/*.ts",
+		// "app/react-app-env.d.ts",
 		// "app/server.js",
 		// "app/components/common/Footer.js",
 		// "app/components/common/Header.js",
