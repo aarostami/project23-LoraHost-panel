@@ -80,6 +80,9 @@ shayad bekhatere version nodejs va nextjs hast.
 // ba taghire version next ya nodejs ok mishe.
 */
 
+/* Error: Get Pages site failed. Please verify that the repository has Pages enabled and configured to build using GitHub Actions, or consider exploring the enablement parameter for this action. Error: Not Found - https://docs.github.com/rest/pages/pages#get-a-apiname-pages-site Error: HttpError: Not Found - https://docs.github.com/rest/pages/pages#get-a-apiname-pages-site
+baraye fix in error bayad dar Settings>Pages>Build and deployment -> source -> Github Actions */
+
 // my note in compilerOption in tsconfig.json:
 // "baseUrl": ".",
 // "moduleResolution": "bundler",		//in baese error ya warning baraye import az node_module mishe
