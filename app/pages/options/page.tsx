@@ -1,9 +1,9 @@
 'use client'
-import CommentsSlider from '@/app/component/MidCom/CommentsSlider';
-import ServicesMe from '@/app/component/MidCom/ServicesMe';
+// import CommentsSlider from '@/app/component/MidCom/CommentsSlider';
+// import ServicesMe from '@/app/component/MidCom/ServicesMe';
 import { Container } from '@mui/system';
-// import ServicesMe from '../../components/MidCom/ServicesMe.js';
-// import CommentsSlider from '../../components/MidCom/CommentsSlider.js';
+import ServicesMe from '../../components/MidCom/ServicesMe.js';
+import CommentsSlider from '../../components/MidCom/CommentsSlider.js';
 
 const options = () => {
 	return (<header>
