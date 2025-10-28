@@ -1,15 +1,15 @@
 "use client"
 import { useState, useEffect, useContext, useRef, createContext, Suspense } from "react";
-import Header from "../component/common/Header";
-import Footer from "../component/common/Footer";
+import Header from "../components/common/Header";
+import Footer from "../components/common/Footer";
 import Grid from '@mui/material/Unstable_Grid2'
 import { Container } from "@mui/system";
 import { createTheme, Drawer, Avatar, Box, Divider, List, ListItem, ListItemButton, ListItemIcon, ListItemText, ListSubheader, Typography } from "@mui/material";
-import FirstRowStatis from "../component/Panel/FirstRowStatis";
-import SecondRowStatis from "../component/Panel/SecondRowStatis";
-import Empolyees from "../component/Panel/Employees";
-import ReceiveMessage from "../component/Panel/ReceiveMessage";
-import LastProjects from "../component/Panel/LastProjects";
+import FirstRowStatis from "../components/Panel/FirstRowStatis";
+import SecondRowStatis from "../components/Panel/SecondRowStatis";
+import Empolyees from "../components/Panel/Employees";
+import ReceiveMessage from "../components/Panel/ReceiveMessage";
+import LastProjects from "../components/Panel/LastProjects";
 // import dynamic from "next/dynamic";
 import IconButton from "@mui/material/IconButton";
 import ChevronLeft from '@mui/icons-material/ChevronLeft'
@@ -18,7 +18,7 @@ import DashboardIcon from '@mui/icons-material/Dashboard';
 import avatar from '../images/panel/avatar-1.jpg'
 import Image from "next/image";
 import MenuIcon from '@mui/icons-material/Menu'
-import DrawerSide from '../component/Panel/DrawerSide'
+import DrawerSide from '../components/Panel/DrawerSide'
 import Byekan from './fonts/Yekan.ttf'
 import Mj_Anoosh from './fonts/Mj_Anoosh.ttf'
 import ThemeProvider from "@mui/system/ThemeProvider";

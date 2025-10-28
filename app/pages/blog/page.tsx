@@ -1,6 +1,6 @@
 'use client'
-import Header from '../../component/common/Header'
-import Footer from '../../component/common/Footer'
+import Header from '../../components/common/Header'
+import Footer from '../../components/common/Footer'
 import Common from '../common'
 import { Box, Container } from '@mui/system'
 import { Button, Divider, FormGroup, Grid, Input, List, ListItem, Typography } from '@mui/material'

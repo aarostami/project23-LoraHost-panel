@@ -1,7 +1,7 @@
 'use client'
 import { Container } from '@mui/system';
-import SecondPrices from '../../component/MidCom/SecondPrices';
-import CommentsSlider from '../../component/MidCom/CommentsSlider';
+import SecondPrices from '../../components/MidCom/SecondPrices';
+import CommentsSlider from '../../components/MidCom/CommentsSlider';
 
 const services = () => {
 

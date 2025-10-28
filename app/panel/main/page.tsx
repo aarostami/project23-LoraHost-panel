@@ -1,10 +1,10 @@
 "use client"
 import { useState} from "react";
-import FirstRowStatis from "../../component/Panel/FirstRowStatis";
-import SecondRowStatis from "../../component/Panel/SecondRowStatis";
-import Empolyees from "../../component/Panel/Employees";
-import ReceiveMessage from "../../component/Panel/ReceiveMessage";
-import LastProjects from "../../component/Panel/LastProjects";
+import FirstRowStatis from "../../components/Panel/FirstRowStatis";
+import SecondRowStatis from "../../components/Panel/SecondRowStatis";
+import Empolyees from "../../components/Panel/Employees";
+import ReceiveMessage from "../../components/Panel/ReceiveMessage";
+import LastProjects from "../../components/Panel/LastProjects";
 import Grid from '@mui/material/Unstable_Grid2'
 import { createTheme } from "@mui/material/styles";
 
