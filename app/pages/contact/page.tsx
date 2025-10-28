@@ -2,9 +2,9 @@
 import { Box, Container } from '@mui/system';
 import Grid from '@mui/material/Unstable_Grid2';
 import { Input, Button, FormGroup, List, ListItem, Stack, Typography } from '@mui/material'
-import Heading from '../../components/Heading'
+import Heading from '../../component/Heading'
 // import Header from '../../components/Header'
-import Footer from '../../components/common/Footer'
+import Footer from '../../component/common/Footer'
 import Common from '../common';
 
 const contact = () => {

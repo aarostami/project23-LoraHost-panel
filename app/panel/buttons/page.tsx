@@ -1,6 +1,6 @@
 'use client'
 import { Button, Card } from '@mui/material'
-import Cardheader from '../../components/Panel/Cardheader'
+import Cardheader from '../../component/Panel/Cardheader'
 
 const Buttons = () => {
 
