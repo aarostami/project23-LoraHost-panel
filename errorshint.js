@@ -62,7 +62,9 @@ https://nextjs.org/docs/messages/module-not-found
 
 
 Build failed because of webpack errors 
-
+// deghat baraye halle in address ha hatman hatman bayad folderi ke dar local hast ba github check beshe,
+masalan baad az baresi dar local folder 'components' bood ama dar github 'Components' bood(be har dalili), bayad ye bar dar local
+name ro change konim va push konim va baad dobare be name ghabli 'components' bargardoonim va push konim.
 -------------------------------------------
 error:
 file:///C:/Users/Alireza/Documents/MEGAsync/Projects/front-end/4-Nextjs/archive/New%20folder/next.config.js:1
